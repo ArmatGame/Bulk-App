@@ -820,13 +820,14 @@ footer {
 footer .cards {
   align-items: flex-start;
   gap: 150px;
+  margin-bottom: 90px;
 }
 
 @media (max-width: 1060px) {
   footer .cards {
     flex-direction: column;
     margin: 0 auto;
-    gap: 90px;
+    gap: 10px;
   }
 }
 
@@ -939,6 +940,58 @@ footer .cards .card .input button {
 
 footer .cards .card .image img {
   margin-left: -5px;
+}
+
+footer > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 160px;
+  padding-top: 60px;
+}
+
+@media (max-width: 1030px) {
+  footer > div:last-child {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+}
+
+footer > div:last-child div:first-child {
+  color: rgb(191, 190, 190);
+  min-width: 300px;
+}
+
+footer > div:last-child div:first-child span,
+footer > div:last-child div:first-child i {
+  color: rgb(194, 65, 255);
+}
+
+footer > div:last-child div:last-child {
+  display: flex;
+}
+
+footer > div:last-child div:last-child a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer > div:last-child div:last-child a i {
+  background-color: black;
+  color: white;
+  padding: 4px;
+  margin-left: 5px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+footer > div:last-child div:last-child a i:hover {
+  background-color: white;
+  color: rgb(194, 65, 255);
 }
 /* End Footer */
 
