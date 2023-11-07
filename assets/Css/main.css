@@ -934,6 +934,7 @@ footer .cards .card .input button {
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
+  cursor: pointer;
 }
 
 footer .cards .card .image img {
